@@ -116,10 +116,10 @@
 	</build>
 
 	<distributionManagement>
-		<repository>
-			<id>maven-releases</id>
-			<url>http://13.234.202.203:8081/repository/maven-releases/</url>
-		</repository>
+  <repository>
+    <id>maven-releases</id> <!-- Must match ID in settings.xml -->
+    <url>http://13.234.202.203:8081/repository/maven-releases/</url>
+  </repository>
 		<snapshotRepository>
 			<id>maven-snapshots</id>
 			<url>http://13.234.202.203:8081/repository/maven-snapshots/</url>
